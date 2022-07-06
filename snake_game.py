@@ -7,3 +7,4 @@ pygame.init()
 
 width,height = 600,600
 window = pygame.display.set_mode((width,height))
+caption = pygame.display.set_caption("!!!SNAKE!!!")
