@@ -9,7 +9,8 @@ width,height = 600,600
 window = pygame.display.set_mode((width,height))
 caption = pygame.display.set_caption("!!!SNAKE!!!")
 white = (255,255,225)
-while True:
+run = True
+while run:
     window.fill(white)
     pygame.display.update()
     for event in pygame.event.get():
