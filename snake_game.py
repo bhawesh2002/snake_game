@@ -9,6 +9,7 @@ width,height = 600,600
 window = pygame.display.set_mode((width,height))
 caption = pygame.display.set_caption("!!!SNAKE!!!")
 white = (255,255,225)
+red = (255,0,0)
 green_snake = pygame.image.load(os.path.join('Assets','green snake.png'))
 orange_snake = pygame.image.load(os.path.join('Assets','snake orange.png'))
 run = True
